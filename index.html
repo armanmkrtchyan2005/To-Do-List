@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./sccript.js"></script>
+    <title>Lesson</title>
+  </head>
+  <body>
+    <h1 id="title">TO DO</h1>
+    <div class="parent">
+      <div class="add">
+        <input type="text" placeholder="Type your plans" class="inp" onkeydown="search()" />
+        <button class="btn">add</button>
+      </div>
+      <div class="list">
+        <ul>
+          <div class="div">
+            <div class="notchecked-list1">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <li>Learn React</li>
+            </div>
+            <button class="delBtn1">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="div">
+            <div class="notchecked-list2">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <li>Learn JS</li>
+            </div>
+            <button class="delBtn2">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="div">
+            <div class="notchecked-list3">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <li>Sport</li>
+            </div>
+            <button class="delBtn3">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </button>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

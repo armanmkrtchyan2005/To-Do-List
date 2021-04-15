@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: fantasy;
+}
+body {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parent {
+  width: 80%;
+  margin: 60px auto;
+}
+.add {
+  display: flex;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.inp {
+  width: 523px;
+  height: 55px;
+}
+#title {
+  text-align: center;
+}
+ul {
+  width: 450px;
+  margin-top: 30px;
+  padding: 0;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  list-style: none;
+  padding: 5px;
+}
+.newDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  list-style: none;
+  padding: 5px;
+}
+.notchecked-list1 {
+  display: flex;
+}
+.notchecked-list1 > i {
+  display: none;
+}
+.checked-list1 li {
+  list-style: none;
+  text-decoration: line-through;
+}
+.checked-list1 i {
+  display: block;
+}
+.notchecked-list2 {
+  display: flex;
+}
+.notchecked-list2 > i {
+  display: none;
+}
+.checked-list2 li {
+  list-style: none;
+  text-decoration: line-through;
+}
+.checked-list2 i {
+  display: block;
+}
+.notchecked-list3 {
+  display: flex;
+}
+.notchecked-list3 > i {
+  display: none;
+}
+.checked-list3 li {
+  list-style: none;
+  text-decoration: line-through;
+}
+.checked-list3 i {
+  display: block;
+}
+.newDiv div {
+  display: flex;
+}
+.newDiv div i {
+  display: none;
+}
+.newDiv .newDivCheckedList li {
+  list-style: none;
+  text-decoration: line-through;
+}
+.newDiv .newDivCheckedList i {
+  display: block;
+}
+
+h1 {
+  margin-top: 100px;
+}
+
+.btn {
+  width: 80px;
+  height: 61px;
+}
