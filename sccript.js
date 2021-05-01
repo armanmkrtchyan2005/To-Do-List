@@ -58,7 +58,6 @@ btn.addEventListener("click", function () {
 
         ul.prepend(newDiv);
         newDiv.classList.add("newDiv");
-        // newDiv.append(list);
 
         newDiv.prepend(newDivnotCheckedList);
         newDivnotCheckedList.prepend(newDivI);
